@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1000]C:\Projects\MVC\AppArchPOC\AppArch.Tests.Domain\Tests.Domain.nunit</TopNode>
+  <SelectedNode>[0-1004]AppArch.Tests.Domain.RepositoryTests.Should_Get_Products_For_Beverages_Category</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]C:\Projects\MVC\AppArchPOC\AppArch.Tests.Domain\Tests.Domain.nunit" Expanded="true" />
+    <Node UniqueName="[0-1005]C:\Projects\MVC\AppArchPOC\AppArch.Tests.Domain\bin\Debug\AppArch.Tests.Domain.dll" Expanded="true" />
+    <Node UniqueName="[0-1006]AppArch" Expanded="true" />
+    <Node UniqueName="[0-1007]AppArch.Tests" Expanded="true" />
+    <Node UniqueName="[0-1008]AppArch.Tests.Domain" Expanded="true" />
+    <Node UniqueName="[0-1001]AppArch.Tests.Domain.RepositoryTests" Expanded="true" />
+  </Nodes>
+</VisualState>

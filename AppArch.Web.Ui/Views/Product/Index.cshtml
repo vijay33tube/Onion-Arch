@@ -1,0 +1,26 @@
+﻿@model AppArch.Web.Ui.ViewModels.ProductViewModel
+
+@{
+    ViewBag.Title = "Products By Category";
+}
+
+<h2>Products By Category</h2>
+
+@using (Html.BeginForm())
+{
+    <p>Categories: @Html.DropDownList(
+        "CategoryId",
+        new SelectList(Model.Categories,
+            "CategoryId", "CategoryName", Model.SelectedCategory))
+             <input type="submit" value="Products"/></p>
+}
+<p>Products:</p>
+
+@{
+    var grid = new WebGrid(source:Model.Products, canPage:false, canSort:false);
+}
+@grid.GetHtml(columns: grid.Columns(
+        grid.Column("ProductId", "Product Id"),
+        grid.Column("ProductName", " ProductName"),
+        grid.Column("UnitPrice", "Unit Price"),
+        grid.Column("Discontinued", "Discontinued")))

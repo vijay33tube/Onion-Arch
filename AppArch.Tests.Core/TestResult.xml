@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Projects\MVC\AppArchPOC\AppArch.Tests.Domain\Tests.Domain.nunit" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-10-01" time="17:18:31">
+  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.5446" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Projects\MVC\AppArchPOC\Libs\NUnit.2.5.10.11092\tools" machine-name="ANTHONYSNEE9483" user="Tony" user-domain="ANTHONYSNEE9483" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Project" name="C:\Projects\MVC\AppArchPOC\AppArch.Tests.Domain\Tests.Domain.nunit" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\Projects\MVC\AppArchPOC\AppArch.Tests.Domain\bin\Debug\AppArch.Tests.Domain.dll" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="AppArch" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Tests" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Domain" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="RepositoryTests" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <results>
+                          <test-case name="AppArch.Tests.Domain.RepositoryTests.Should_Get_Products_For_Beverages_Category" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                            <failure>
+                              <message><![CDATA[System.ArgumentNullException : Value cannot be null.
+Parameter name: source]]></message>
+                              <stack-trace><![CDATA[at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+at AppArch.Tests.Domain.RepositoryTests.Should_Get_Products_For_Beverages_Category() in C:\Projects\MVC\AppArchPOC\AppArch.Tests.Domain\RepositoryTests.cs:line 107
+]]></stack-trace>
+                            </failure>
+                          </test-case>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
